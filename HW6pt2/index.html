@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Homework 6pt2: Census data ratios and categories</title>
+</head>
+<body>
+    <h1>Homework 6pt2: Census data ratios and categories</h1>
+    <h2>By: Jerome Ibrahim</h2>
+    
+    <section>
+        <h3>Map 1</h3>
+        <img src="TX1.png" style="width: 600px; height: 400px;" alt="Map 1">
+        <p><strong>Pros:</strong></p>
+        <ul>
+            <li>Data Distribution: Equal count ensures a balanced distribution of data values across map classes, reducing skewness.</li>
+            <li>Improved Visual Interpretation: Map readers can easily interpret and compare areas with similar data quantities.</li>
+            <li>Enhanced Data Clarity: Equal count helps display data variations clearly for better understanding.</li>
+        </ul>
+        <p><strong>Cons:</strong></p>
+        <ul>
+            <li>Loss of Detail: Equal count may downplay extreme values or outliers in some cases.</li>
+            <li>Not Always Appropriate: It may not be the most suitable method for all datasets and mapping goals.</li>
+        </ul>
+    </section>
+
+    <section>
+        <h3>Map 2</h3>
+        <img src="TX2.png" style="width: 600px; height: 400px;" alt="Map 2">
+        <p><strong>Pros:</strong></p>
+        <ul>
+            <li>Data Distribution: Equal interval classification creates clear and evenly spaced data ranges, simplifying interpretation.</li>
+            <li>Useful for Highlighting Extremes: Effective for emphasizing extreme values or outliers in the data.</li>
+            <li>Simple and Understandable: The method is straightforward and user-friendly.</li>
+        </ul>
+        <p><strong>Cons:</strong></p>
+        <ul>
+            <li>Insensitivity to Data Distribution: Equal intervals may not account for data distribution, leading to uneven class sizes in some cases.</li>
+            <li>Potential for Misleading Maps: In datasets with uneven distribution, equal intervals may create classes that do not represent the data accurately.</li>
+            <li>Challenging for Skewed Data: Highly skewed data may result in most values clustered in one class, reducing map informativeness.</li>
+        </ul>
+    </section>
+    
+
+    <section>
+        <h3>Map 3</h3>
+        <img src="TX3.png" style="width: 600px; height: 400px;" alt="Map 3">
+        <p><strong>Pros:</strong></p>
+        <ul>
+            <li>Effective for Data Compression: Logarithmic scales efficiently compress a wide range of data values, making it suitable for displaying data with extreme outliers or a large dynamic range.</li>
+            <li>Highlighting Variations: Logarithmic scales emphasize relative differences in data values, aiding the visualization of subtle variations.</li>
+            <li>Useful for Skewed Data: Particularly valuable when dealing with skewed data distributions, as it enhances details in the lower end of the scale.</li>
+            <li>Reduced Impact of Outliers: Logarithmic scales lessen the visual impact of extreme outliers, making maps less sensitive to a few very high or low values.</li>
+            <li>Improved Data Representation: Provides a more accurate representation of the underlying data distribution, especially for data spanning multiple orders of magnitude.</li>
+        </ul>
+        <p><strong>Cons:</strong></p>
+        <ul>
+            <li>Complexity: Logarithmic scales are more complex to interpret for users unfamiliar with the method, requiring additional effort.</li>
+            <li>Risk of Misinterpretation: Users may misinterpret the data or the scale, especially when not accustomed to logarithmic representations.</li>
+            <li>Loss of Absolute Magnitude: Emphasizing relative differences on logarithmic scales may obscure the absolute magnitude of data values.</li>
+            <li>Inappropriate for Some Data: Not suitable for all datasets, especially when relative differences are not the primary focus or when the data lacks a wide dynamic range.</li>
+            <li>Challenging for Map Readers: Users may find it difficult to compare regions with values displayed on a logarithmic scale, especially when differences are small.</li>
+        </ul>
+    </section>
+    
+</body>
+</html>
