@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Homework 8: Geoprocessing Analysis</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        h1, h2 {
+            color: #333;
+        }
+        h2 {
+            border-bottom: 2px solid #ccc;
+            padding-bottom: 10px;
+            margin-top: 20px;
+        }
+        p {
+            text-align: justify;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+            margin-top: 20px;
+        }
+        .datasets {
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Homework 8: Geoprocessing Analysis</h1>
+    <p><em>By: Jerome Ibrahim</em></p>
+
+    <h2>Research Question</h2>
+    <p>What is the spatial relationship between public schools and toxic sites in North Carolina?</p>
+
+    <h2>Project Report</h2>
+    <p>The execution of this project's map involved a systematic application of geoprocessing tools within the QGIS environment. Initial data acquisition encompassed the integration of two key datasets—public school locations from NC OneMap and toxic sites information from the Environmental Protection Agency (EPA). These datasets served as foundational layers, furnishing the necessary spatial context for subsequent analysis.</p>
+    <p>Following data integration, a shapefile delineating North Carolina's geographic boundaries was introduced to provide a comprehensive visual reference. Attention to detail was maintained through the coordination of all layers under a shared Coordinate Reference System (CRS), ensuring accurate spatial alignment and coherent interpretation.</p>
+    <p>The geoprocessing phase commenced with the application of the Buffer tool, designating a 5-mile radius around toxic sites to delineate zones of influence—a spatial representation of potential impact areas. Subsequently, the Spatial Join tool facilitated the identification of public schools situated within the specified 5-mile distances from these buffered zones. The judicious use of these geoprocessing tools contributed to a nuanced spatial analysis, revealing that 220 schools lie within 5 miles of a toxic site in North Carolina. This systematic approach aligns with the standards expected in a project report, emphasizing precision and methodical execution.</p>
+
+    <img src="map1.png" style="width: 600px; height: 400px;" alt="Big Picture Map of NC"> 
+    <img src="map2.png" style="width: 600px; height: 400px;" alt="Zoomed in Map of NC">
+   
+   
+    <div class="datasets">
+        <h2>Datasets</h2>
+        <ul>
+            <li><a href="link/to/schools/dataset">Link to Public Schools Dataset</a></li>
+            <li><a href="link/to/toxic/sites/dataset">Link to Toxic Sites Dataset</a></li>
+            <li><a href="link/to/new/dataset">Link to Dataset: Schools in Toxic Site Areas</a></li>
+        </ul>
+    </div>
+
+</body>
+</html>
